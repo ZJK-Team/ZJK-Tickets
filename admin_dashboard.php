@@ -2,7 +2,6 @@
 session_start();
 include 'header.php';  // Načteme hlavičku
 include 'config.php';  // Připojíme se k databázi
-
 ?>
 
 <link rel="stylesheet" href="admin_panel.css">  <!-- Načteme styl pro admin panel -->
@@ -11,7 +10,6 @@ include 'config.php';  // Připojíme se k databázi
         <h2 class="admin-panel-header">Admin Panel</h2>
 
         <!-- Odkazy na různé administrativní akce -->
-        <a href="add_news.php" class="admin-panel-btn">Přidat novinku</a>
         <a href="chage_role.php" class="admin-panel-btn">Spravovat role</a>
         <a href="admin_tickets.php" class="admin-panel-btn">Tickets</a>
 
