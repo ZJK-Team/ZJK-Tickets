@@ -1,0 +1,127 @@
+/* Základní styl pro admin panel */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+.admin-panel-container {
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.admin-panel-header {
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.admin-panel-btn {
+    background-color: #00bfff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.admin-panel-btn:hover {
+    background-color: #009acd;
+}
+
+.admin-panel-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.admin-panel-table th, .admin-panel-table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+
+.admin-panel-table th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+
+.admin-panel-table td {
+    background-color: #f9f9f9;
+}
+
+.admin-panel-table tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+.admin-panel-table select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.success-msg {
+    color: green;
+    font-size: 1.2rem;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.error-msg {
+    color: red;
+    font-size: 1.2rem;
+    margin: 20px 0;
+    text-align: center;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+body{
+    background: url('img/admin_BG.png') no-repeat center center/cover;
+}
+
+@media (max-width: 768px) {
+    .admin-panel-container {
+        padding: 20px;
+    }
+}

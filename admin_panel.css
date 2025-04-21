@@ -1,0 +1,81 @@
+/* Základní styl pro admin panel */
+.admin-panel-container {
+    background-color: #222;
+    color: #ffffff;
+    padding: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 255, 136, 0.2);
+}
+
+.admin-panel-header {
+    text-align: center;
+    font-size: 2rem;
+    color: #00ff88;
+    margin-bottom: 30px;
+}
+
+.admin-panel-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.admin-panel-link:hover {
+    background-color: #cc5200;
+}
+
+.admin-panel-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #444;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.admin-panel-btn:hover {
+    background-color: #666;
+}
+
+.admin-panel-table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.admin-panel-table th, .admin-panel-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+
+.admin-panel-table th {
+    background-color: #444;
+}
+
+.admin-panel-table tr:hover {
+    background-color: #555;
+}
+
+td{
+    color: white;
+}
+
+th{
+    color: #ffffff;
+}
+
+body{
+    background: url('img/admin_BG.png') no-repeat center center/cover;
+}
