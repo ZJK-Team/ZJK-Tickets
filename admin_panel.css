@@ -1,4 +1,7 @@
-/* Základní styl pro admin panel */
+body{
+    background: url('img/admin_BG.jpg') no-repeat center center/cover;
+}
+
 .admin-panel-container {
     background-color: #222;
     color: #ffffff;
@@ -74,8 +77,4 @@ td{
 
 th{
     color: #ffffff;
-}
-
-body{
-    background: url('img/admin_BG.png') no-repeat center center/cover;
 }

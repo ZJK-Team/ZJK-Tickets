@@ -117,7 +117,7 @@ form button:hover {
 }
 
 body{
-    background: url('img/admin_BG.png') no-repeat center center/cover;
+    background: url('img/admin_BG.jpg') no-repeat center center/cover;
 }
 
 @media (max-width: 768px) {
