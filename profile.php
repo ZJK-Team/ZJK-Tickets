@@ -25,10 +25,10 @@ $stmt->fetch();  // Načteme údaje
         <p><strong>Role:</strong> <?php echo htmlspecialchars($role); ?></p>
         <!-- Podmíněný zobrazení odkazu pro Admin panel -->
         <?php if ($role === 'admin'): ?>
-            <p><a href="admin_dashboard.php" class="admin-panel-link">Admin Panel</a></p>
+            <p><a href="admin_dashboard.php" class="admin-panel-link">Admin Panel</a></p><img id="img_profile" src="/img/admin.png" alt=""> 
         <?php endif; ?>
         <?php if ($role === 'user'): ?>
-            <img src="/img/User" alt="">
+            <img id="img_profile" src="/img/User.png" alt="">
         <?php endif; ?>
     </div>
 </main>
