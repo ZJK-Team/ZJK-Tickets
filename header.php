@@ -18,7 +18,7 @@ echo '</pre>';
 <header>
     <!-- Logo v levém horním rohu -->
     <div class="logo">
-        <img src="img/Logo.png" alt="Logo Arma 3">
+        <img src="img/ZJK_Logo.png" alt="">
     </div>
 
     <div class="navbar">
@@ -30,13 +30,10 @@ echo '</pre>';
             <a href="my_tickets.php">Moje Tickety</a>
         <?php endif; ?>
 
-        <?php if (isset($_SESSION['user_role'])): ?>
+        <?php if (isset($_SESSION['role'])): ?>
             <!-- Navigace pro Admina -->
-            <?php if ($_SESSION['user_role'] === 'admin'): ?>
+            <?php if ($_SESSION['role'] === 'admin'): ?>
                 <a href="admin_dashboard.php" class="admin-nav-link">Admin Panel</a>
-                <div class="admin-role-nav">Admin</div>
-            <?php else: ?>
-                <div class="user-role-nav">Uživatel</div>
             <?php endif; ?>
         <?php endif; ?>
     </div>

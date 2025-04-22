@@ -82,19 +82,6 @@ header {
     text-align: center;
 }
 
-.news{
-    background-color: #0000005b;
-}
-
-.news ul {
-    list-style: none;
-    padding: 0;
-}
-
-.news li {
-    margin: 10px 0;
-}
-
 .link-buttons {
     display: flex;
     justify-content: center;
@@ -114,7 +101,7 @@ html, body {
     min-height: 100%;
     display: flex;
     flex-direction: column;
-    background: url('img/PJ_s.jpg') no-repeat center center/cover;
+    background: url('/SEM OBRÁZEK NA HLAVNÍ STRÁNKY DO POZADI') no-repeat center center/cover;
 }
 
 .main-container-profile{
@@ -165,7 +152,7 @@ footer a:hover {
 }
 
 .profile-main{
-    background: url('img/PJ_s.jpg') no-repeat center center/cover;
+    background: url('/SEM OBRAZEK NA UZIVATELE DO POZADI') no-repeat center center/cover;
 }
 
 @media (max-width: 768px) {

@@ -1,4 +1,3 @@
-/* Základní styly pro hlavičku */
 header {
     background-color: #111;
     padding: 0px;
@@ -19,16 +18,11 @@ header .logo img{
     height: 115px;
 }
 
-header .logo{
-    position: relative;
-    rotate: 30deg;
-}
-
 header h1 {
     color: #fff;
     font-size: 2rem;
     margin: 0;
-    display: none; /* Skrytý text pro logo */
+    display: none;
 }
 
 .navbar {
@@ -51,22 +45,6 @@ header h1 {
     background-color: #444;
 }
 
-.user-role-nav, .admin-role-nav {
-    background-color: transparent;
-    padding: 5px 10px;
-    font-weight: bold;
-}
-
-.admin-role-nav {
-    background-color: #ff4444;
-    color: white;
-}
-
-.user-role-nav {
-    background-color: #44aaff;
-    color: white;
-}
-
 .admin-panel-link {
     display: inline-block;
     margin-top: 20px;
@@ -81,6 +59,7 @@ header h1 {
 .admin-panel-link:hover {
     background-color: #555;
 }
+
 @media (max-width: 600px) {
     header {
         flex-direction: column;
