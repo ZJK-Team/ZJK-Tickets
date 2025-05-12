@@ -4,7 +4,7 @@ include 'header.php';
 include 'config.php';
 ?>
 
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="styles/style.css">
 <main class="main-content">
     <section class="hero">
         <h1>Stránka ZJKteam</h1>

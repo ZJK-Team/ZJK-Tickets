@@ -15,6 +15,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['ticket_id'], $_POST['
     $stmt->bind_param("si", $status, $ticket_id);
     $stmt->execute();
 
-    header("Location: admin_tickets.php");
+    header("Location: styles/admin_tickets.php");
     exit;
 }

@@ -58,7 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <input type="text" name="username" placeholder="Uživatelské jméno" required>
             <input type="password" name="password" placeholder="Heslo" required>
             <button type="submit">Přihlásit se</button>
-            <a href="signup.php" class="signup-link">Nemáte účet? Zaregistrujte se</a>
+            <a href="signup.php" class="signup-link">Zaregistrovat se</a>
         </form>
     </div>
 

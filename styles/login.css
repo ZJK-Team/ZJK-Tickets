@@ -65,9 +65,11 @@ body {
 
 /* Odkaz pro přihlášení */
 .login-form .signup-link {
-    margin-top: 15px;
-    font-size: 14px;
-    color: #007bff;
+    text-align: center;
+    display: block;
+    font-size: 15px;
+    color: #0056b3;
+    margin-top: 10px;
     text-decoration: none;
 }
 

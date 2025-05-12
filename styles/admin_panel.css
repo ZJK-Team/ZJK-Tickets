@@ -1,5 +1,9 @@
 body{
-    background: url('img/admin_BG.jpg') no-repeat center center/cover;
+    background: url('/img/BG_admin.jpg') ;
+}
+
+main{
+    margin: 90px;
 }
 
 .admin-panel-container {
@@ -8,13 +12,13 @@ body{
     padding: 40px;
     margin-top: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 255, 136, 0.2);
+    box-shadow: 0 0 20px rgba(171, 228, 201, 0.2);
 }
 
 .admin-panel-header {
     text-align: center;
     font-size: 2rem;
-    color: #00ff88;
+    color: #ffffff;
     margin-bottom: 30px;
 }
 

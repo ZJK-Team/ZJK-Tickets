@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="admin_tickets.css">
+<link rel="stylesheet" href="styles/admin_tickets.css">
 <?php
 session_start();
 include 'config.php';

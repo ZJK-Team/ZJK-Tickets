@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body {
+  font-family: "Manrope", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  background-color: none;
+}
+.navbar{
+    gap: 80px;
+}
+.wrapper {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+  padding: 0 25px;
+  background: linear-gradient(to left, #0a2ab8 0%, #080936 100%);
+  z-index: 10;
+  position: relative;
+  box-shadow: rgba(0,0,0,0.5) 0px 4px 12px;
+}
+.wrapper-logo {
+  width: 90px;
+  height: 90px;
+}
+.wrapper-logo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.wrapper-hamburger {
+  width: 50px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-right: 20px;
+  transition: transform ease 1s;
+}
+.wrapper-hamburger span {
+  transition: transform ease 1s;
+  transition: ease 1s;
+  border: 2px solid white;
+}
+@media only screen and (min-width: 768px) {
+  .wrapper-hamburger {
+    display: none;
+  }
+}
+.wrapper .is-active {
+  transform: rotate(360deg);
+}
+.wrapper .is-active span:nth-child(1) {
+  transform: rotate(45deg) translate(6px, 13px);
+}
+.wrapper .is-active span:nth-child(2) {
+  opacity: 0;
+}
+.wrapper .is-active span:nth-child(3) {
+  transform: rotate(-45deg) translate(4px, -13px);
+}
+header nav {
+  position: absolute;
+  font-weight: bold;
+  left: 50%;
+  transform: translateX(-50%) translateY(-350px);
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  background-color: rgba(17, 59, 187,0.95);
+  box-shadow: rgba(0,0,0,0.5) 0px 4px 12px;
+  transition: transform ease 1s;
+}
+header nav a {
+  text-decoration: none;
+  border: 2px solid rgb(0, 0, 0, 0);
+  color: white;
+  margin: 10px;
+  font-size: 20px;
+  transition: ease 0.3s;
+}
+header nav a:hover {
+  box-shadow: 0 4px 2px -2px white;
+  text-shadow: 0px 0px 4px white;
+}
+@media only screen and (min-width: 768px) {
+  header nav {
+    z-index: 10;
+    flex-direction: row;
+    justify-content: flex-end;
+    transform: translate(-53%, -150%);
+    background: none;
+    box-shadow: none;
+  }
+}
+.is-open {
+  transform: translateX(-50%) translateY(0px);
+}

@@ -4,7 +4,7 @@ include 'header.php';  // Načteme hlavičku
 include 'config.php';  // Připojíme se k databázi
 ?>
 
-<link rel="stylesheet" href="admin_panel.css">  <!-- Načteme styl pro admin panel -->
+<link rel="stylesheet" href="styles/admin_panel.css">  <!-- Načteme styl pro admin panel -->
 <main>
     <div class="main-container">
         <h2 class="admin-panel-header">Admin Panel</h2>

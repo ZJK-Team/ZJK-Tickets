@@ -23,7 +23,7 @@ $stmt->execute();
 $stmt->bind_result($id, $username, $role);
 ?>
 
-<link rel="stylesheet" href="admin_style.css">  <!-- Načteme styl pro admin panel -->
+<link rel="stylesheet" href="styles/admin_style.css">  <!-- Načteme styl pro admin panel -->
 <main>
     <div class="admin-panel-container">
         <h2 class="admin-panel-header">Změna role uživatele</h2>

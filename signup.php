@@ -63,7 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <input type="password" name="password" placeholder="Heslo" required>
             <input type="password" name="confirm_password" placeholder="Potvrďte heslo" required>
             <button type="submit">Registrovat</button>
-            <a href="login.php" class="login-link">Máte účet? Přihlaste se</a>
+            <a href="login.php" class="login-link">Přihlásit se</a>
         </form>
     </div>
 

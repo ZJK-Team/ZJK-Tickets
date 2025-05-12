@@ -29,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['message'])) {
     $stmt = $conn->prepare("INSERT INTO ticket_messages (ticket_id, user_id, message) VALUES (?, ?, ?)");
     $stmt->bind_param("iis", $ticket_id, $user_id, $msg);
     $stmt->execute();
-    header("Location: view_ticket.php?id=$ticket_id");
+    header("Location: styles/view_ticket.php?id=$ticket_id");
     exit;
 }
 
@@ -42,7 +42,7 @@ $msg_result = $messages->get_result();
 include 'header.php'; 
 ?>
 
-<link rel="stylesheet" href="view_ticket.css">
+<link rel="stylesheet" href="styles/view_ticket.css">
 
 <main class="ticket-chat">
     <h2>Ticket: <?php echo htmlspecialchars($ticket['subject']); ?></h2>

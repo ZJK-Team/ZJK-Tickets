@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="my_tickets.css">
+<link rel="stylesheet" href="styles/my_tickets.css">
 <?php
 session_start();
 include 'config.php';
@@ -27,6 +27,7 @@ include 'header.php';
 ?>
 
 <main class="user-tickets">
+  
     <h2>Moje tickety</h2>
 
     <form method="post">
@@ -41,8 +42,8 @@ include 'header.php';
             <strong><?php echo htmlspecialchars($ticket['subject']); ?></strong>
             <p>Stav: <?php echo htmlspecialchars($ticket['status']); ?></p>
             <a href="view_ticket.php?id=<?php echo $ticket['id']; ?>">Zobrazit konverzaci</a>
-        </div>
     <?php endwhile; ?>
+    </div>
 </main>
 
 <?php include 'footer.php'; ?>
